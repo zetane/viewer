@@ -98,29 +98,29 @@ By pressing the 'Load ONNX input' icon, a synthetic input will be created to mat
 # **Models**
 We have generated a few ZTN models for inspecting their architecture and internal tensors in the viewer. We have also provided the code used to generate these models.
 ## Image Classification
-- [Alexnet](models/readme.md#alexnet)
-- [EfficientNet](models/readme.md#efficientnet)
-- [Resnet50v2](models/readme.md#resnet50v2)
+- [Alexnet](models/README.md#alexnet)
+- [EfficientNet](models/README.md#efficientnet)
+- [Resnet50v2](models/README.md#resnet50v2)
 ## Object Detection
-- [YoloV3](models/readme.md#yolov3)
-- [SSD](models/readme.md#ssd)
+- [YoloV3](models/README.md#yolov3)
+- [SSD](models/README.md#ssd)
 ## Image Segmentation
-- [Unet](models/readme.md#unet)
+- [Unet](models/README.md#unet)
 ## Body, Face and Gesture Analysis
-- [Emotion_ferplus8](models/readme.md#emotion_ferplus8)
-- [RFB_320](models/readme.md#rfb_320)
-- [vgg_ilsvrc_16_age](models/readme.md#vgg_ilsvrc_16_age)
-- [vgg_ilsvrc_16_gen](models/readme.md#vgg_ilsvrc_16_gen)
+- [Emotion_ferplus8](models/README.md#emotion_ferplus8)
+- [RFB_320](models/README.md#rfb_320)
+- [vgg_ilsvrc_16_age](models/README.md#vgg_ilsvrc_16_age)
+- [vgg_ilsvrc_16_gen](models/README.md#vgg_ilsvrc_16_gen)
 ## Image Manipulation
-- [Super resolution](models/readme.md#super-resolution)
-- [Style transfer](models/readme.md#style-transfer)
+- [Super resolution](models/README.md#super-resolution)
+- [Style transfer](models/README.md#style-transfer)
 ## Machine Comprehension
-- [RoBERTa](models/readme.md#roberta)
+- [RoBERTa](models/README.md#roberta)
 ## XAI
-- [XAI for VGG16](models/readme.md#xai-with-keras)
-- [XAI for Alexnet](models/readme.md#xai-with-pytorch)
+- [XAI for VGG16](models/README.md#xai-with-keras)
+- [XAI for Alexnet](models/README.md#xai-with-pytorch)
 ## Classic Machine Learning
-- [Sklearn Iris](models/readme.md#sklearn-iris)
+- [Sklearn Iris](models/README.md#sklearn-iris)
 
 Please note that the python scripts for the models include the Zetane Engine Python-Zetane API functions as well. You may remove the Zetane API parts easily to run the script in Python if you don't have the Zetane Engine version.
 ***
