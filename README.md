@@ -114,8 +114,6 @@ We have generated a few ZTN models for inspecting their architecture and interna
 ## Image Manipulation
 - [Super resolution](models/README.md#super-resolution)
 - [Style transfer](models/README.md#style-transfer)
-## Machine Comprehension
-- [RoBERTa](models/README.md#roberta)
 ## XAI
 - [XAI for VGG16](models/README.md#xai-with-keras)
 - [XAI for Alexnet](models/README.md#xai-with-pytorch)
