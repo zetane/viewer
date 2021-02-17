@@ -40,7 +40,7 @@ Below is the step-by-step instruction of how to load and inspect a model in the 
 - ### How to load a model
 The viewer supports both .ONNX and .ZTN files. The ZTN files were generated from the Keras and Pytorch scripts shared in this Git repository. After launching the viewer, to load a Zetane model, simply click “Load Zetane Model” in the DATA I/O menu. To load an Onnx model, click on “Import ONNX Model” in the same menu. Below you can access the ZTN files for a few models to load. You can also access ONNX files from the [ONNX Model Zoo](https://github.com/onnx/models).
 <br/><br/>
-<img src="screenshots/load.jpg" alt="loading">
+<img src="screenshots/load.png" alt="loading">
 
 When a model is displayed in the Zetane engine, any components of the model can be accessed in a few clicks.
 
@@ -88,11 +88,11 @@ Tensor values__ | <img src="screenshots/tensor_viz_values.png" alt="tensor_viz_v
 Feature maps view when the tensor has shape of dimension 3| <img src="screenshots/tensor_viz_feature_maps.png" alt="tensor_viz_values" width="400"/>
 
 - ### Synthetic Input
-After loading an .ONNX, the internal weights and biases tensor can be accessed and viewed in the tensor side panel. After pressing the input and output tensor buttons, because the model did not receive an input, no tensor will be displayed.
+After loading an ONNX model, the internal weights and biases tensor can be accessed and viewed in the tensor side panel. After pressing the input and output tensor buttons, because the model did not receive an input, no tensor will be displayed.
 
-By pressing the 'Load ONNX input' icon, a synthetic input will be created to match the size and shape of the input tensor. Then, the input is passed to the model which will generate all the internal tensors.
+By pressing the Load ONNX input icon, a synthetic input will be created to match the size and shape of the input tensor. Then, the input is passed to the model which will generate all the internal tensors.
 <br/><br/>
-<img src="screenshots/synthetic_input.jpg" alt="input">
+<img src="screenshots/synthetic_input.png" alt="input">
 
 
 # **Models**
