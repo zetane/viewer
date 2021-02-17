@@ -1,0 +1,1 @@
+While the script itself is not based on an external source, our XAI code for Keras is partially based on https://github.com/sicara/tf-explain with an MIT License.

@@ -1,0 +1,4 @@
+snapshot: "Single Stage Detector"
+model: "ssd"
+input: "[1x3x1200x1200]"
+output: "[1x200x4] classification & location data"

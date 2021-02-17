@@ -1,0 +1,1 @@
+While the script itself is not based on an external source, our XAI code for PyTorch is partially based on https://github.com/utkuozbulak/pytorch-cnn-visualizations with an MIT License.

@@ -1,0 +1,4 @@
+snapshot: "YoloV3"
+model: "yolov3"
+input: "[1x3x416x416]"
+output: "[5x3] classification & location data"
