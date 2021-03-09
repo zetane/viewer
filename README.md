@@ -22,11 +22,11 @@ The __free Zetane Viewer__ is a tool to help understand and accelerate discovery
 ## Installation
 You can install the __free__ Zetane viewer for Windows, Linux and Mac, and explore ZTN and ONNX files.
 
-[Download for Windows](https://download.zetane.com/zetane/Zetane-1.1.3.msi)
+[Download for Windows](https://download.zetane.com/zetane/Zetane-1.1.4.msi)
 
-[Download for Linux](https://download.zetane.com/zetane/Zetane-1.1.3.deb)
+[Download for Linux](https://download.zetane.com/zetane/Zetane-1.1.4.deb)
 
-[Download for Mac](https://download.zetane.com/zetane/Zetane-1.1.3.dmg)
+[Download for Mac](https://download.zetane.com/zetane/Zetane-1.1.4.dmg)
 
 
 
