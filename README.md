@@ -1,7 +1,9 @@
 ***
 
 
+<a href="https://zetane.com">
 <img src="screenshots/Zetane_logo_for_white_background.png" alt="logo" width="250"/>
+</a>
 <br/><br/>
 
 
