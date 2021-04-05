@@ -62,9 +62,9 @@ You may navigate the model viewer window by right clicking and dragging to explo
 After loading a model you may want to send your own inputs to the model to inference. You can do this by first upgrading to a free 30 day trial using the button in the top right of the menu. After upgrading, you will be able to load custom inputs via file or through the Zetane python API. Zetane supports loading .npy, .npz, .png, .jpg, .pb (protobuf), .tiff, and .hdr files that match the input dimensions of the model. The Zetane engine will attempt to intelligently resize the file loaded (if possible) in order to send the data to the model. After loading and running the input, you will be able to explore in detail how your model interpreted the input data.
 <br/><br/>
 <p align="center">
-<img src="screenshots/pro_load_inputs.png" alt="nodes" width="400" height="600"/>
-<img src="screenshots/pro_load_inputs_run.png" alt="tensors" width="400" height="600"/>
-<img src="screenshots/pro_load_inputs_tensor.png" alt="tensors" width="400" height="600"/>
+<img src="screenshots/pro_load_inputs.png" alt="nodes" height="600"/>
+<img src="screenshots/pro_load_inputs_run.png" alt="tensors" height="600"/>
+<img src="screenshots/pro_load_inputs_tensor.png" alt="tensors" height="600"/>
 </p>
 
 - ### How to inspect different layers and feature maps
