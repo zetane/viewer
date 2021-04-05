@@ -24,11 +24,11 @@ The __free Zetane Viewer__ is a tool to help understand and accelerate discovery
 ## Installation
 You can install the __free__ Zetane viewer for Windows, Linux and Mac, and explore ZTN and ONNX files.
 
-[Download for Windows](https://download.zetane.com/zetane/Zetane-1.1.4.msi)
+[Download for Windows](https://download.zetane.com/zetane/Zetane-1.2.0.msi)
 
-[Download for Linux](https://download.zetane.com/zetane/Zetane-1.1.4.deb)
+[Download for Linux](https://download.zetane.com/zetane/Zetane-1.2.0.deb)
 
-[Download for Mac](https://download.zetane.com/zetane/Zetane-1.1.4.dmg)
+[Download for Mac](https://download.zetane.com/zetane/Zetane-1.2.0.dmg)
 
 
 
@@ -48,10 +48,25 @@ When a model is displayed in the Zetane engine, any components of the model can 
 
 At the highest level, we have the model architecture which is composed of interconnected nodes and tensors. Each node represents an operator of the computational graph. Usually, an input tensor is passed to the model and as it goes through the nodes it will be transformed into intermediate tensors until we reach the output tensor of the model. In the Zetane engine, the data flows from left to right.
 <br/><br/>
+
 <img src="screenshots/model_architecture.png" alt="architecture">
 
 - ### How to navigate
-You may navigate the model, from left to right and up to down and vice versa. [Here](https://docs.zetane.com/interactions.html#) is the complete list of navigation instructions.
+You may navigate the model viewer window by right clicking and dragging to explore the space and using the scroll wheel to zoom in and out. [Here](https://docs.zetane.com/interactions.html#) is the complete list of navigation instructions. You can change the behavior of the mouse wheel (either to zoom or to navigate) via the Mouse Zoom toggle in the top menu.
+<br><br/>
+<p align="center">
+<img src="screenshots/zoom.png" alt="zoom" />
+</p>
+
+- ### (PRO FEATURE) Loading custom model inputs
+After loading a model you may want to send your own inputs to the model to inference. You can do this by first upgrading to a free 30 day trial using the button in the top right of the menu. After upgrading, you will be able to load custom inputs via file or through the Zetane python API. Zetane supports loading .npy, .npz, .png, .jpg, .pb (protobuf), .tiff, and .hdr files that match the input dimensions of the model. The Zetane engine will attempt to intelligently resize the file loaded (if possible) in order to send the data to the model. After loading and running the input, you will be able to explore in detail how your model interpreted the input data.
+<br/><br/>
+<p align="center">
+<img src="screenshots/pro_load_inputs.png" alt="nodes" height="600"/>
+<img src="screenshots/pro_load_inputs_run.png" alt="tensors" height="600"/>
+<img src="screenshots/pro_load_inputs_tensor.png" alt="tensors" height="600"/>
+</p>
+
 - ### How to inspect different layers and feature maps
 For each layer, you have the option to view all the feature maps and filters by clicking on the “Show Feature Maps” on each node. You may inspect the inputs and outputs and weights and biases using the tensor view bar.
 <br/><br/>

@@ -2,7 +2,7 @@
 
 # **XAI with PyTorch**
 
-[<img src="xai_torch/xai_torch.gif">](xai_torch)
+<img src="xai_torch.gif">
 
 ### Description
 
@@ -11,7 +11,7 @@ This snapshot builds on the AlexNet example, using the Zetane XAI API to produce
 **Framework:** PyTorch
 
 <br /><br />
-[ZTN model](xai_torch/ztn/xai_torch.ztn)
+[ZTN model](ztn/xai_torch.ztn)
 
-[Python script](xai_torch)
+[Python script](xai_torch.py)
 <br /><br />
