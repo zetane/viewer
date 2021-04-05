@@ -2,7 +2,7 @@
 
 # **XAI with Keras**
 
-[<img src="xai_keras/xai_keras.gif">](xai_keras)
+<img src="xai_keras.gif">
 
 ### Description
 
@@ -11,7 +11,7 @@ This snapshot uses the VGG16 architecture with the Zetane XAI API to produce exp
 **Framework:** TensorFlow
 
 <br /><br />
-[ZTN model](xai_keras/ztn/xai_keras.ztn)
+[ZTN model](ztn/xai_keras.ztn)
 
-[Python script](xai_keras)
+[Python script](xai_keras.py)
 <br /><br />

@@ -76,7 +76,7 @@ This model is used for segmentation of images (particularly medical images). It 
 <br /><br />
 [ZTN model](unet/ztn/unet.ztn)
 
-[ONNX model](unet/keras_model.onnx)
+[ONNX model](unet/unet.onnx)
 
 [Python script](unet)
 <br /><br />
