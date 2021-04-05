@@ -2,7 +2,7 @@
 
 # **XAI with PyTorch**
 
-<img src="xai_torch.gif">(xai_torch)
+<img src="xai_torch.gif">
 
 ### Description
 

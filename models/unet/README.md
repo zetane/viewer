@@ -2,7 +2,7 @@
 
 # **Unet**
 
-<img src="unet.gif">(unet)
+<img src="unet.gif">
 
 ### Description
 
