@@ -104,13 +104,6 @@ Tensor values and color representations of each value based on the gradient show
 Tensor values__ | <img src="screenshots/tensor_viz_values.png" alt="tensor_viz_values" width="400"/>
 Feature maps view when the tensor has shape of dimension 3| <img src="screenshots/tensor_viz_feature_maps.png" alt="tensor_viz_values" width="400"/>
 
-- ### Synthetic Input
-After loading an ONNX model, the internal weights and biases tensor can be accessed and viewed in the tensor side panel. After pressing the input and output tensor buttons, because the model did not receive an input, no tensor will be displayed.
-
-By pressing the Load ONNX input icon, a synthetic input will be created to match the size and shape of the input tensor. Then, the input is passed to the model which will generate all the internal tensors.
-<br/><br/>
-<img src="screenshots/synthetic_input.png" alt="input">
-
 
 # **Models**
 We have generated a few ZTN models for inspecting their architecture and internal tensors in the viewer. We have also provided the code used to generate these models.
