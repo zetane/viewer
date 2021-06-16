@@ -24,11 +24,11 @@ The __free Zetane Viewer__ is a tool to help understand and accelerate discovery
 ## Installation
 You can install the __free__ Zetane viewer for Windows, Linux and Mac, and explore ZTN and ONNX files.
 
-[Download for Windows](https://download.zetane.com/zetane/Zetane-1.4.0.msi)
+[Download for Windows](https://download.zetane.com/zetane/Zetane-1.5.0.msi)
 
-[Download for Linux](https://download.zetane.com/zetane/Zetane-1.4.0.deb)
+[Download for Linux](https://download.zetane.com/zetane/Zetane-1.5.0.deb)
 
-[Download for Mac](https://download.zetane.com/zetane/Zetane-1.4.0.dmg)
+[Download for Mac](https://download.zetane.com/zetane/Zetane-1.5.0.dmg)
 
 
 
@@ -132,8 +132,6 @@ We have generated a few ZTN models for inspecting their architecture and interna
 
 Please note that the python scripts for the models include the Zetane Engine Python-Zetane API functions as well. You may remove the Zetane API parts easily to run the script in Python if you don't have the Zetane Engine version.
 ***
-# **Zetane Engine**
-The Zetane Engine (30-day free trial) is an interactive workspace for debugging, understanding, and explaining data and neural networks. An important feature of the Zetane Engine not supported by the Zetane Viewer is the Python-Zetane API. Using the Python-Zetane API, you can send and visualize in the Zetane Engine multiple types of data coming from your own Python workflow (model, numpy, images, text, meshes).
 
 ## Installation
 More information about the installation, Zetane Viewer, Zetane Engine 30-day free trial and sample examples is provided [here](https://docs.zetane.com/getting_started.html).
