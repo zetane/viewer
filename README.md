@@ -58,9 +58,8 @@ You may navigate the model viewer window by right clicking and dragging to explo
 <img src="screenshots/zoom.png" alt="zoom" />
 </p>
 
-- ### (PRO FEATURE) Loading custom model inputs
-After loading a model you may want to send your own inputs to the model to inference. You can do this by first upgrading to a free 30 day trial using the button in the top right of the menu. After upgrading, you will be able to load custom inputs via file or through the Zetane python API. Zetane supports loading .npy, .npz, .png, .jpg, .pb (protobuf), .tiff, and .hdr files that match the input dimensions of the model. The Zetane engine will attempt to intelligently resize the file loaded (if possible) in order to send the data to the model. After loading and running the input, you will be able to explore in detail how your model interpreted the input data.
-<br/><br/>
+- ### Loading custom model inputs
+After loading a model you may want to send your own inputs to the model to inference. Zetane supports loading .npy, .npz, .png, .jpg, .pb (protobuf), .tiff, and .hdr files that match the input dimensions of the model. The Zetane engine will attempt to intelligently resize the file loaded (if possible) in order to send the data to the model. After loading and running the input, you will be able to explore in detail how your model interpreted the input data.
 <p align="center">
 <img src="screenshots/pro_load_inputs.png" alt="nodes" height="600"/>
 <img src="screenshots/pro_load_inputs_run.png" alt="tensors" height="600"/>
@@ -130,9 +129,9 @@ We have generated a few ZTN models for inspecting their architecture and interna
 ## Classic Machine Learning
 - [Sklearn Iris](models/README.md#sklearn-iris)
 
-Please note that the python scripts for the models include the Zetane Engine Python-Zetane API functions as well. You may remove the Zetane API parts easily to run the script in Python if you don't have the Zetane Engine version.
+
 ***
 
 ## Installation
-More information about the installation, Zetane Viewer, Zetane Engine 30-day free trial and sample examples is provided [here](https://docs.zetane.com/getting_started.html).
+Install the Zetane Viewer [here](https://zetane.com/download).
 ***
