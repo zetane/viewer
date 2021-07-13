@@ -9,8 +9,7 @@
 
 The __free Zetane Viewer__ is a tool to help understand and accelerate discovery in machine learning and artificial neural networks. It can be used to open the AI black box by visualizing and understanding the model's architecture and internal data (feature maps, weights, biases and layers output tensors). It can be thought of as a tool to do neuroimaging or brain imaging for artificial neural networks and machine learning algorithms.
 
- You can also launch your own Zetane workspace directly from your existing scripts or notebooks via a few commands using the Pro version (see Zetane Pro section below).
-<br/><br/>
+ You can also launch your own Zetane workspace directly from your existing scripts or notebooks via a few commands using the Zetane [Python API](https://docs.zetane.come).
 <p align="center">
 <img src="screenshots/model_node.gif" alt="nodes" width="400" height="600"/>
 <img src="screenshots/tensor_panel.gif" alt="tensors" width="400" height="600"/>
