@@ -20,6 +20,33 @@ The __free Zetane Viewer__ is a tool to help understand and accelerate discovery
 
 # **Zetane Viewer**
 
+<!-- TABLE OF CONTENTS -->
+<ul>
+  <li><a href="#Installation"> Installation </a></li>
+  <li><a href="#Tutorial"> Tutorial </a></li>
+    <ul>
+      <li><a href="#How-to-load-a-model"> How to load a model </a></li>
+      <li><a href="#How-to-navigate"> How to navigate </a></li>
+      <li><a href="#Loading-custom-model-inputs"> Loading custom model inputs </a></li>
+      <li><a href="#How-to-inspect-different-layers"> How to inspect different layers </a></li>
+      <li><a href="#Tensor-view-bar"> Tensor view bar </a></li>
+      <li><a href="#Styles-of-tensor-visualization"> Styles of tensor visualization </a></li>
+    </ul>
+  <li><a href="#Models"> Models </a></li>
+    <ul>
+      <li><a href="#Image-Classification"> Image Classification </a></li>
+      <li><a href="#Object-Detection"> Object Detection </a></li>
+      <li><a href="#Image-Segmentation"> Image Segmentation </a></li>
+      <li><a href="#Body-Face-and-Gesture-Analysis"> Body, Face and Gesture Analysis </a></li>
+      <li><a href="#Image-Manipulation"> Image Manipulation </a></li>
+      <li><a href="#XAI"> XAI </a></li>
+      <li><a href="#Classic-Machine-Learning"> Classic Machine Learning </a></li>
+    </ul>
+</ul>
+
+<!-- INSTALLATION -->
+<a id="Installation"></a>
+
 ## Installation
 You can install the __free__ Zetane viewer for Windows, Linux and Mac, and explore ZTN and ONNX files.
 
@@ -30,6 +57,8 @@ You can install the __free__ Zetane viewer for Windows, Linux and Mac, and explo
 [Download for Mac](https://download.zetane.com/zetane/Zetane-1.7.4.dmg)
 
 
+<!-- TUTORIAL -->
+<a id="Tutorial"></a>
 
 ## Tutorial
 In this [video](https://www.youtube.com/watch?v=J3Zd5GR_lQs&feature=youtu.be), we will show you how to load a Zetane or ONNX model, navigate the model and view different tensors:
@@ -38,6 +67,9 @@ In this [video](https://www.youtube.com/watch?v=J3Zd5GR_lQs&feature=youtu.be), w
 
 
 Below is the step-by-step instruction of how to load and inspect a model in the Zetane viewer:
+<!-- HOW TO LOAD A MODEL -->
+<a id="How-to-load-a-model"></a>
+
 - ### How to load a model
 The viewer supports both .ONNX and .ZTN files. The ZTN files were generated from the Keras and Pytorch scripts shared in this Git repository. After launching the viewer, to load a Zetane model, simply click “Load Zetane Model” in the DATA I/O menu. To load an Onnx model, click on “Import ONNX Model” in the same menu. Below you can access the ZTN files for a few models to load. You can also access ONNX files from the [ONNX Model Zoo](https://github.com/onnx/models).
 <br/><br/>
@@ -49,6 +81,8 @@ At the highest level, we have the model architecture which is composed of interc
 <br/><br/>
 
 <img src="screenshots/model_architecture.png" alt="architecture">
+<!-- HOW TO NAVIGATE -->
+<a id="How-to-navigate"></a>
 
 - ### How to navigate
 You may navigate the model viewer window by right clicking and dragging to explore the space and using the scroll wheel to zoom in and out. [Here](https://docs.zetane.com/interactions.html#) is the complete list of navigation instructions. You can change the behavior of the mouse wheel (either to zoom or to navigate) via the Mouse Zoom toggle in the top menu.
@@ -56,6 +90,9 @@ You may navigate the model viewer window by right clicking and dragging to explo
 <p align="center">
 <img src="screenshots/zoom.png" alt="zoom" />
 </p>
+
+<!-- LOADING CUSTOM MODEL INPUTS -->
+<a id="Loading-custom-model-inputs"></a>
 
 - ### Loading custom model inputs
 After loading a model you may want to send your own inputs to the model to inference. Zetane supports loading .npy, .npz, .png, .jpg, .pb (protobuf), .tiff, and .hdr files that match the input dimensions of the model. The Zetane engine will attempt to intelligently resize the file loaded (if possible) in order to send the data to the model. After loading and running the input, you will be able to explore in detail how your model interpreted the input data.
@@ -65,12 +102,18 @@ After loading a model you may want to send your own inputs to the model to infer
 <img src="screenshots/pro_load_inputs_tensor.png" alt="tensors" height="600"/>
 </p>
 
+<!-- HOW TO INSPECT DIFFERENT LAYERS -->
+<a id="How-to-inspect-different-layers"></a>
+
 - ### How to inspect different layers and feature maps
 For each layer, you have the option to view all the feature maps and filters by clicking on the “Show Feature Maps” on each node. You may inspect the inputs and outputs and weights and biases using the tensor view bar.
 <br/><br/>
 <p align="center">
 <img src="screenshots/featuremap.png" alt="featuremap"  width="700"/>
 </p>
+
+<!-- TENSOR VIEW BAR -->
+<a id="Tensor-view-bar"></a>
 
 - ### Tensor view bar
 By clicking on the associated button, you can visualize inputs, outputs, weights and biases (if applicable) for each individual layer. You can also investigate the shape, type, mean and standard deviation of each tensor.
@@ -84,6 +127,9 @@ Statistics about the tensor value and its distribution is given in the histogram
 <p align="center">
 <img src="screenshots/tensor_panel.png" alt="tensorpanel" width="500"/>
 </p>
+
+<!-- STYLES OF TENSOR VISUALIZATION -->
+<a id="Styles-of-tensor-visualization"></a>
 
 - ### Styles of tensor visualization
 Tensors can be inspected in different ways, including 3D view and 2D view with and without actual values.
@@ -102,29 +148,59 @@ Tensor values and color representations of each value based on the gradient show
 Tensor values__ | <img src="screenshots/tensor_viz_values.png" alt="tensor_viz_values" width="400"/>
 Feature maps view when the tensor has shape of dimension 3| <img src="screenshots/tensor_viz_feature_maps.png" alt="tensor_viz_values" width="400"/>
 
+<!-- MODELS -->
+<a id="Models"></a>
 
 # **Models**
 We have generated a few ZTN models for inspecting their architecture and internal tensors in the viewer. We have also provided the code used to generate these models.
+
+<!-- IMAGE CLASSIFICATION -->
+<a id="Image-Classification"></a>
+
 ## Image Classification
 - [Alexnet](models/README.md#alexnet)
 - [EfficientNet](models/README.md#efficientnet)
 - [Resnet50v2](models/README.md#resnet50v2)
+
+<!-- OBJECT DETECTION -->
+<a id="Object-Detection"></a>
+
 ## Object Detection
 - [YoloV3](models/README.md#yolov3)
 - [SSD](models/README.md#ssd)
+
+<!-- IMAGE SEGMENTATION -->
+<a id="Image-Segmentation"></a>
+
 ## Image Segmentation
 - [Unet](models/README.md#unet)
+
+<!-- BODY, FACE AND GESTURE ANALYSIS -->
+<a id="Body-Face-and-Gesture-Analysis"></a>
+
 ## Body, Face and Gesture Analysis
 - [Emotion_ferplus8](models/README.md#emotion_ferplus8)
 - [RFB_320](models/README.md#rfb_320)
 - [vgg_ilsvrc_16_age](models/README.md#vgg_ilsvrc_16_age)
 - [vgg_ilsvrc_16_gen](models/README.md#vgg_ilsvrc_16_gen)
+
+<!-- IMAGE MANIPULATION -->
+<a id="Image-Manipulation"></a>
+
 ## Image Manipulation
 - [Super resolution](models/README.md#super-resolution)
 - [Style transfer](models/README.md#style-transfer)
+
+<!-- XAI -->
+<a id="XAI"></a>
+
 ## XAI
 - [XAI for VGG16](models/README.md#xai-with-keras)
 - [XAI for Alexnet](models/README.md#xai-with-pytorch)
+
+<!-- CLASSIC MACHINE LEARNING -->
+<a id="Classic-Machine-Learning"></a>
+
 ## Classic Machine Learning
 - [Sklearn Iris](models/README.md#sklearn-iris)
 
